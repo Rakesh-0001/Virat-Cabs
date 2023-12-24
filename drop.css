@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('FontsFree-Net-Poppins-SemiBold.ttf');
+
+}
+
+nav li {
+    /* background-color: aqua; */
+    border-radius: 10px;
+    padding: -6px;
+    font-family: 'CustomFont';
+    color: black;
+
+}
+
+nav li:hover {
+    background-color: rgb(255, 191, 0);
+}
+
+nav .dropdown li {
+    /* background-color: aqua; */
+    padding: 6px;
+    font-family: 'CustomFont';
+    color: black;
+}
+
+nav .dropdown li:hover {
+    /* background-color: aqua; */
+    padding: 6px;
+    font-family: 'CustomFont';
+    color: black;
+    background-color: none;
+
+
+
+}
+
+nav .dropdown-menu {
+    /* background-color: blue; */
+    text-align: start;
+}
+
+@media only screen and (max-width: 767px) {
+
+    nav li {
+        /* background-color: aqua; */
+        border-radius: 10px;
+        padding: -6px;
+        font-family: 'CustomFont';
+        color: black;
+        display: flex;
+
+
+    }
+
+    nav .navbar-nav {
+        margin-top: 20px;
+    }
+
+    nav .navbar-nav li {
+
+        margin-left: 40px;
+        margin: 14px;
+
+    }
+
+    nav li:hover {
+        background-color: rgb(255, 191, 0);
+    }
+
+    nav .dropdown {}
+
+    nav .dropdown li {
+        /* background-color: aqua; */
+        padding: 6px;
+        font-family: 'CustomFont';
+        color: black;
+
+
+
+    }
+
+    nav .dropdown-menu {
+        /* background-color: blue; */
+        text-align: start;
+        background-color: none;
+        
+
+    }
+
+    nav .dropdown-toggle {
+        /* background-color: green; */
+        /* margin-left: 150px; */
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+    nav li {
+        /* background-color: aqua; */
+        border-radius: 10px;
+        padding: -6px;
+        font-family: 'CustomFont';
+        color: black;
+        display: flex;
+
+
+    }
+
+    nav .navbar-nav {
+        margin-top: 20px;
+    }
+
+    nav .navbar-nav li {
+
+        margin-left: 30px;
+        margin: 20px;
+
+    }
+
+    nav li:hover {
+        background-color: rgb(255, 191, 0);
+    }
+
+    nav .dropdown {}
+
+    nav .dropdown li {
+        /* background-color: aqua; */
+        padding: 8px;
+        font-family: 'CustomFont';
+        color: black;
+
+
+    }
+
+    nav .dropdown-menu {
+        /* background-color: blue; */
+        text-align: start;
+        background-color: none;
+        border: none;
+
+    }
+
+    nav .dropdown-toggle {
+        /* background-color: green; */
+        /* margin-left: 150px; */
+    }
+
+}
+
+
+ nav .dropdown-menu li:hover{
+    background-color: rgb(255, 191, 0);
+    padding: -6px;
+    border-radius: 10px;
+}
+nav .dropdown-menu a:hover{
+    background-color: rgb(255, 191, 0);
+    padding: -6px;
+    border-radius: 10px;
+}
+

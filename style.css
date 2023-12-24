@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('FontsFree-Net-Poppins-SemiBold.ttf');
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+
+.home {
+    width: 100%;
+    min-height: 90vh;
+    background-image: url('IMG/taxi.jpeg');
+    opacity: 7px;
+    background-size: cover;
+    background-position: center;
+    animation-name: back;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+
+}
+.clrchangejr{
+     color: rgb(243,111,37);
+}
+
+
+@keyframes back {
+
+    0% {
+        background-image: url('IMG/HOME_BACK/back4.jpg');
+        background-color: #000;
+        background-size: cover;
+        background-position: center;
+    }
+
+    50% {
+        background-image: url('IMG/HOME_BACK/Untitled\ design.png');
+        background-position-x: -20px;
+        background-color: #000;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    100% {
+        background-image: url('IMG/home1.avif');
+        background-color: #000;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+
+
+}
+
+.down-section {
+    min-width: 100%;
+    min-height: 500px;
+    background-image: url('IMG/HOME_BACK/gabriel-crismariu-L7b_Rm5XAqE-unsplash.jpg');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-down {
+
+    min-width: 90%;
+    min-height: 200px;
+    background-color: rgba(18, 18, 18, 0.6);
+    border-radius: 10px;
+
+}
+
+.icon-img {
+    width: 10px;
+}
+
+.choose-car {
+    width: 100%;
+    min-height: 600px;
+    background: url('IMG/choose-car-back.avif') center/cover no-repeat;
+    /* Replace with your image path */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Adjust the alpha value (last parameter) to control opacity */
+    padding: 50px 0;
+}
+
+.home input {
+    border-radius: 2px;
+}
+
+.home input:hover {
+    background-color: rgb(255, 255, 255);
+    border: black;
+
+}
+
+.home input:focus {
+    /* background-color: aqua; */
+    outline-color: none;
+    border: none;
+    outline: .2px solid orange;
+}
+
+/*  */
+
+/* Style for Start Destination input */
+.col:nth-child(1) input::placeholder {}
+
+.col a {
+    color: rgb(101, 99, 99);
+}
+
+.col a:hover {
+    color: orange;
+}
+
+input {
+    padding: 10px 20px;
+}
+
+input:focus {
+    /* background-color: aqua; */
+    outline-color: none;
+    border: none;
+    outline: .2px solid orange;
+}
+
+textarea {
+    border: none;
+}
+
+textarea:focus {
+    outline: none;
+    outline: .2px solid black;
+}
+
+.font {
+    font-family: 'Dosis', sans-serif;
+}
+
+.head-text {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/*  */
+
+
+
+
+.box {
+    background-color: rgb(25, 23, 23);
+    border-radius: 10px;
+
+}
+
+.box:hover {
+    background-color: rgb(230, 174, 2);
+}
+
+.gray {
+    color: gray;
+}
+
+.footer {
+    background-color: rgb(39, 39, 39);
+    color: rgb(195, 200, 195);
+}
+.text-dim-white{
+    color: rgb(195, 200, 195)
+}
+
+@media only screen and (max-width: 600px) {
+
+    .home {
+        width: 100%;
+        min-height: 80vh;
+        background-image: url('IMG/taxi.jpeg');
+        opacity: 7px;
+        background-size: cover;
+        background-position: center;
+        animation-name: back;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-delay: 3s;
+
+
+    }
+
+    .home h1 {
+        font-size: 50px;
+    }
+
+    .home form div {
+        /* background-color: red; */
+        width: 100%;
+    }
+    .home .check {
+        width: 10%;
+        height: 20px;
+
+
+    }
+
+    .home .btn-home {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+
+    .home {
+        width: 100%;
+        min-height: 80vh;
+        background-image: url('IMG/taxi.jpeg');
+        opacity: 7px;
+        background-size: cover;
+        background-position: center;
+        animation-name: back;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-delay: 3s;
+
+    }
+
+
+    .home form {
+        /* background-color: aqua; */
+    }
+
+    .home h1 {
+        font-size: 50px;
+    }
+
+    .home form div {
+        /* background-color: red; */
+        width: 100%;
+    }
+
+
+    .home input {
+        width: 100%;
+        height: 50px;
+
+
+    }
+
+    .home .check {
+        width: 10%;
+        height: 20px;
+
+
+    }
+
+    .home .btn-home {
+        width: 200px;
+    }
+
+}
+
+.service{
+background-color: rgba(240, 221, 11, 0.2);
+}
+.service .box3{
+    background-color: rgba(246, 186, 7, 0.153);
+    border-radius: 10px;
+}
+.service .box3:hover{
+    background-color: rgba(255, 191, 0, 0.474);
+    border-radius: 10px;
+}
+
+
+
+
+/* DROP DOWN END */
+
+
+
+.box5:hover{
+    background-color: rgba(255, 191, 0, 0.295) ;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 450px) {
+    nav .menu-link {
+
+        width: fit-content;
+        padding: 6px;
+        border-radius: 10px;
+        font-family: 'CustomFont';
+        color: black;
+    }
+    
+    nav .menu-link:hover {
+        background-color:none;
+        width: fit-content;
+        padding: 6px;
+    }
+    nav .menu-link:active{
+        background-color: none;
+        width: fit-content;
+        padding: 6px;
+    }
+    
+    nav .drop{
+        width: fit-content;
+        padding: 6px;
+        border-radius: 10px;
+        font-family: 'CustomFont';
+        color: black;
+    }
+    nav .drop:hover{
+        background-color: none;
+        width: fit-content;
+        padding: 6px;
+        border-radius: 10px;
+        padding: 6px;
+    }
+    nav .dropdown-menu{
+        background-color: white;
+        padding: 10px;
+    }
+    
+    
+    nav .dropdown-menu li:hover{
+        background-color: rgb(255, 191, 0);
+        /* padding: 6px; */
+        border-radius: 20px;
+    }
+    nav .dropdown-menu a:hover{
+        background-color: rgb(255, 191, 0);
+        
+    }
+  
+
+}
+
+

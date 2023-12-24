@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('FontsFree-Net-Poppins-SemiBold.ttf');
+
+}
+.contact-box {
+    min-width: 100%;
+    height:fit-content ;
+    /* background-color: gray; */
+    /* background-color: blue; */
+    display: flex;
+    padding: 10px;
+}
+
+.left-box {
+    width: 50%;
+    min-height: 500px;
+    background-image: url('IMG/HOME_BACK/back3.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+   padding: 10px;
+}
+
+.right-box {
+    width: 50%;
+    /* background-color: aqua; */
+
+}
+.right-box h2{
+    position: relative;
+    top: 80px;
+    font-size: 25px;
+    font-family: 'CustomFont';
+   
+}
+.right-box label{
+   
+    font-size: 14px;
+    font-family: 'CustomFont';
+    color: rgb(52, 51, 51);
+   
+}
+
+.contactForm {
+    margin: 100px;
+}
+
+
+/* Mobile devices (portrait and landscape) */
+@media only screen and (max-width: 450px) {
+    .left-box {
+        width: 50%;
+        height: 500px;
+        background-image: url('IMG/HOME_BACK/back3.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+       padding: 10px;
+       display: none;
+    }
+    .right-box {
+        width: 100%;
+        /* background-color: aqua; */
+       
+        
+    
+    }
+    .right-box label{
+   
+        font-size: 14px;
+        font-family: 'CustomFont';
+        color: rgb(52, 51, 51);
+        position: relative;
+        right: 50px;
+       
+    }
+    .right-box input{
+   
+        
+        padding: 5px 30px;
+        width: 300px;
+        margin: auto;
+        position: relative;
+        right: 53px;
+       
+    }
+    .right-box textarea{
+   
+        
+        padding: 5px 30px;
+        width: 300px;
+        margin: auto;
+        position: relative;
+        right: 53px;
+       
+    }
+    
+
+}
+
+
+/* Tablets and small desktops */
+@media only screen and (max-width: 768px)  {
+    .right-box {
+        width: 100%;
+        /* background-color: aqua; */
+    
+    }
+    .left-box {
+        width: 50%;
+        height: 500px;
+        background-image: url('IMG/HOME_BACK/back3.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+       padding: 10px;
+       display: none;
+    }
+
+}

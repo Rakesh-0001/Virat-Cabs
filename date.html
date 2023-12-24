@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Input Placeholder Example</title>
+    <style>
+        /* Add your CSS styles here */
+        .custom-date-input {
+            position: relative;
+        }
+
+        .custom-date-input input[type="date"] {
+            position: relative;
+            z-index: 1;
+        }
+
+        .custom-date-input::before {
+            content: attr(placeholder);
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            transform: translateY(-50%);
+            z-index: 0;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML code for date input with a placeholder -->
+    <div class="custom-date-input">
+        <input type="date" class="form-control" placeholder="Select a date">
+    </div>
+
+    <!-- Include the JavaScript code -->
+    <script>
+        // JavaScript code to handle the value and placeholder
+        document.addEventListener('DOMContentLoaded', function () {
+            var dateInput = document.querySelector('.custom-date-input input[type="date"]');
+
+            dateInput.addEventListener('input', function () {
+                // If the value is not empty, hide the pseudo-placeholder
+                if (dateInput.value) {
+                    dateInput.parentElement.setAttribute('data-placeholder', '');
+                } else {
+                    dateInput.parentElement.removeAttribute('data-placeholder');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

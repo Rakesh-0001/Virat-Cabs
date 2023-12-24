@@ -1,0 +1,18 @@
+@media only screen and (max-width: 950px) {
+
+    .tourism {
+        /* background-color: aqua; */
+        position: relative;
+        bottom: 250px;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .tourism {
+        /* background-color: aqua; */
+        position: relative;
+        bottom: 190px;
+    }
+
+
+}

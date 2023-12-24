@@ -1,0 +1,63 @@
+
+
+
+
+
+section{
+    /* background-color: aqua; */
+}
+section .img1{
+    background-image: url('IMG/GALLERY_IMG/img1.jpg');
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+
+}
+section .img2{
+    background-image: url('IMG/GALLERY_IMG/img2.jpg');
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+section .img3{
+    background-image: url('IMG/GALLERY_IMG/img3.jpg');
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+section .img4{
+    background-image: url('IMG/GALLERY_IMG/img4.jpg');
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+section .img5{
+    background-image: url('IMG/GALLERY_IMG/img5.jpg');
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 950px) {
+
+    .gallery {
+        /* background-color: aqua; */
+        position: relative;
+        bottom: 130px;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .gallery {
+        /* background-color: aqua; */
+        position: relative;
+        bottom: 185px;
+    }
+
+
+}

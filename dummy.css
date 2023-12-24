@@ -1,0 +1,9 @@
+.choose-car {
+    background: url('path/to/your-background-image.jpg') center/cover no-repeat; /* Replace with your image path */
+    background-color: rgba(0, 123, 255, 0.7); /* Adjust the alpha value (last parameter) to control opacity */
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
+.choose-car h1, .choose-car h3, .choose-car p, .choose-car h6 {
+    color: white;
+}
